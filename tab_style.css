@@ -123,6 +123,10 @@
 
 /* footer begins */
 
+footer {
+    height: 40vh;
+}
+
 .line-1 {
     justify-content: flex-start;
 }

@@ -252,6 +252,7 @@
         height: 220px;
         background-image: url(images/top-video-volcano.jpg);
         background-size: contain;
+        background-repeat: no-repeat;
         border-radius: 5px;
         display: flex;
         align-items: center;

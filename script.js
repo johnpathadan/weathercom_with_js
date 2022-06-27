@@ -1,7 +1,7 @@
 var a = 0;
 
 const widthDisplay = () => {
-    window.innerWidth > 480 ? document.getElementById("visibility").style.display = 'grid' :
+    window.innerWidth >= 480 ? document.getElementById("visibility").style.display = 'grid' :
         document.getElementById("visibility").style.display = 'flex';
 }
 

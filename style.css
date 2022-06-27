@@ -960,6 +960,16 @@ footer {
 }
 
 
+/* desktop reactive */
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1800px) {
+    .display-center>#search-button {
+        top: 3.75vh;
+        bottom: 3.75vh;
+    }
+}
+
+
 /* added fot javascript */
 
 .javascript-two {

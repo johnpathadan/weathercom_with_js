@@ -91,21 +91,18 @@
     }
     .top-stories {
         height: 1100px;
+        box-sizing: border-box;
     }
     .side-by-side {
         flex-direction: column;
     }
     .showcase {
         margin: 15px;
-        flex-direction: row;
+        flex-direction: column;
     }
     /* .main-section {
         width: 53%;
         /* height: 500px; */
-}
-
-*/ .aside {
-    width: 38%;
 }
 
 .main-stories {

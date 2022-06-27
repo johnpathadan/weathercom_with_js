@@ -1,0 +1,303 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* header begins */
+    .ibm-business {
+        display: none;
+    }
+    #main-header {
+        position: fixed;
+        height: 8vh;
+        top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow-x: hidden;
+        justify-content: space-evenly;
+        margin-bottom: 25px;
+        /* display: none; */
+    }
+    #header-logo {
+        width: 40px;
+        height: 40px;
+    }
+    #toi {
+        width: 90px;
+        height: 20px;
+    }
+    #header-search {
+        width: 100px;
+        padding: 10px 5px 10px 5px;
+    }
+    .display-center>#search-button {
+        top: 3vh;
+    }
+    .display-center> ::placeholder {
+        font-size: 10px;
+    }
+    .display-right>.right-section-1 {
+        display: none;
+    }
+    /* header ends */
+    /* navigation */
+    #navigation {
+        display: none;
+    }
+    /* main body begins */
+    .mobile-live-weather {
+        width: 100%;
+        visibility: visible;
+        border-radius: 5px;
+        margin-top: 15px;
+        height: 160px;
+        background-image: url(images/weather-background.webp);
+        background-size: cover;
+        box-sizing: border-box;
+    }
+    .one-line-info {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .one-line-info>span {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .detailed-info {
+        width: 100%;
+        height: 115px;
+        padding: 6px;
+        box-sizing: border-box;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-weather-details>h1,
+    .mobile-weather-details>p {
+        color: white;
+    }
+    .mobile-weather-symbol {
+        width: 80px;
+        height: 80px;
+        background-image: url(images/sunny.png);
+        background-size: contain;
+    }
+    .main-section {
+        width: 100%;
+        margin-top: 4vh;
+    }
+    .main-content {
+        flex-direction: column;
+        margin-top: 7vh;
+    }
+    .top-stories {
+        display: none;
+    }
+    .aside {
+        display: none;
+    }
+    /* top stories mobile starts */
+    .top-stories-mobile {
+        width: 100%;
+        height: 550px;
+        background-color: white;
+        margin-top: 15px;
+        border-radius: 5px;
+        visibility: visible;
+        /* overflow-x: scroll; */
+    }
+    .mobile-top-stories-section-1 {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+    }
+    .mobile-top-stories-section-2 {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+    }
+    .mobile-top-stories-line-1 {
+        /* width: 100%; */
+        height: 240px;
+        /* background-color: black; */
+        margin-top: 5px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+    }
+    .the-mobile-picture {
+        width: 100%;
+        height: 75%;
+        background-color: purple;
+    }
+    .the-mobile-headline {
+        width: 100%;
+        height: 25%;
+        /* background-color: blue; */
+    }
+    .mobile-top-stories-line-2 {
+        /* width: 100%; */
+        height: 180px;
+        /* background-color: black; */
+        margin-top: 5px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+    .mobile-the-story {
+        width: 280px;
+        height: 220px;
+        /* background-color: red; */
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin: 5px;
+        margin-top: 5px;
+    }
+    .section-two-story-image {
+        width: 100%;
+        height: 65%;
+        background-image: url(images/ind-1.webp);
+        background-size: cover;
+    }
+    .mobile-the-story-2 {
+        width: 180px;
+        height: 150px;
+        /* background-color: blue; */
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin: 5px;
+        margin-top: 5px;
+    }
+    .mobile-the-story-2 {
+        border: 5px;
+    }
+    .the-first {
+        background-image: url('images/flood-pic.webp');
+        background-size: cover;
+    }
+    /* top stories mobile ends */
+    /* weather-section starts */
+    .weather-india {
+        margin-top: 15px;
+    }
+    .weather-news {
+        overflow-x: scroll;
+    }
+    .weekend-weather {
+        height: 350px;
+    }
+    .weekend-weather-image {
+        height: 250px;
+    }
+    .weekend-weather-title>h1 {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .weather-blog-section {
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+    }
+    .weather-blog-card {
+        width: 350px;
+        height: 200px;
+    }
+    /* weather-section ends */
+    /* dont miss section starts */
+    .dont-miss-section {
+        height: 220px;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+    }
+    /* .dont-miss-card {
+        width: 900px;
+    } */
+    .dont-miss-story {
+        width: 200px;
+    }
+    /* dont miss section ends */
+    .top-video {
+        display: none;
+    }
+    /* main body ends */
+    /* top video begins */
+    .mobile-top-video {
+        width: 100%;
+        visibility: visible;
+        border-radius: 5px;
+        margin-top: 15px;
+        height: 400px;
+        background-color: white;
+    }
+    .mobile-top-video>h2 {
+        text-align: left;
+    }
+    .mobile-video-container {
+        height: 280px;
+        width: 100%;
+        /* background-color: red; */
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .mobile-video-container:hover {
+        cursor: pointer;
+    }
+    .mobile-top-video-story-image {
+        width: 100%;
+        height: 220px;
+        background-image: url(images/top-video-volcano.jpg);
+        background-size: contain;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile-top-video-story-title {
+        padding: 10px;
+    }
+    .play-button {
+        color: white;
+    }
+    /* top video ends */
+    /* footer begins */
+    footer {
+        display: none;
+    }
+    .mobile-footer {
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        visibility: visible;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+    }
+    .mob-footer-icon {
+        color: #757575;
+    }
+    .footer-icon-title {
+        font-size: 7px;
+        margin-top: 3px;
+    }
+    .icon-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-column:hover {
+        cursor: pointer;
+    }
+    /* footer ends */
+}
+
+
+/* javascript alterations */

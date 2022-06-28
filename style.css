@@ -97,8 +97,8 @@ body {
     border-radius: 25px;
     position: absolute;
     /* 4.5vh for tablets */
-    top: 4.5vh;
-    bottom: 4.5vh;
+    top: 5vh;
+    bottom: 5vh;
     right: 1vw;
 }
 
